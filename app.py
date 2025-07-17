@@ -18,7 +18,7 @@ embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Streamlit UI setup
 st.set_page_config(page_title="Sustainability Chatbot", layout="wide")
-st.title("🌿 Sustainability Report Chatbot (Gemini Free API)")
+st.title("🌿 Sustainability Report Chatbot")
 st.write("Upload a Sustainability Report (PDF) and ask questions based on its content.")
 
 # File uploader
